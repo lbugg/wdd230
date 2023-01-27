@@ -1,0 +1,22 @@
+@media only screen and (min-width: 60em) {	
+    
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    .navigation a {
+        text-align: center;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+
+	.header-logo {
+		width: 180px;
+		height: 108px;
+        margin-right: 22.5px;
+	}
+}
