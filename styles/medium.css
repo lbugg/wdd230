@@ -1,0 +1,14 @@
+@media (min-width: 32.5em) {
+    h1, h2 {
+        margin-left: 2rem;
+    }
+
+    #portrait {
+        width: 200px;
+        height: auto;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}

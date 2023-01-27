@@ -1,0 +1,222 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+}
+
+/* phone or baseline views **************************/
+
+footer {
+    text-align: center;
+	color: white;
+	background-color: #472b1f;
+}
+
+header,
+main,
+footer {
+	max-width: 764px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'Bitter', serif;
+	font-size: 1.2rem;
+}
+
+h2 {
+	font-family: 'Bitter', serif;
+	font-size: 1rem;
+}
+
+h3 {
+	font-family: 'Bitter', serif;
+	font-size: .9rem;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, p {
+	padding: .5rem;
+}
+
+#logo {
+	width: 250px;
+	height: 150px;
+}
+
+.persona-img {
+	width: 200px;
+}
+
+nav {
+	background-color: #472b1f;
+	margin: 0 auto;
+	max-width: 780px;
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 1rem;
+}
+
+nav a:hover {
+	background-color: #a4741e;
+	color: black;
+}
+
+.active {
+	color: #ffc520;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+}
+
+table {
+	width: 100%;
+}
+
+tr {
+	display: grid;
+	grid-template-columns: 2fr 2fr 1fr 4fr;
+	padding: 1rem;
+	border: 1px solid black;
+	align-items: center;
+}
+
+td {
+	padding: .5rem;
+	font-size: .75rem;
+	text-align: center;
+}
+
+td:nth-child(2) {
+	text-align: center;
+}
+
+.color-table {
+	grid-template-columns: 1fr 1fr;
+}
+
+#main-color {
+	color: white;
+	background-color: #472b1f;
+}
+
+#secondary-color {
+	color: white;
+	background-color: #FFC520;
+}
+
+#accent-1 {
+	color: white;
+	background-color: #A4741E;
+}
+
+#accent-2 {
+	color: white;
+	background-color: #BB8C4A;
+}
+
+#site-header {
+	font-size: 2.4rem;
+	font-family: 'Smokum', serif;
+}
+
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+	h1 {
+		font-size: 1.5rem;
+	}
+
+	h2 {
+		font-size: 1.2rem;
+	}
+
+	h3 {
+		font-size: 1.1rem;
+	}
+	header,
+	main,
+	footer {
+	max-width: 928px;
+	}
+
+	nav {
+		max-width: 960px;
+	}
+
+	nav ul {
+		 display: flex;
+	}
+
+	nav ul li {
+		flex: 1 1 auto; 
+	}
+
+	nav ul li a {
+		font-size: 1.2rem;
+	}
+
+	td {
+		font-size: 1rem;
+	}
+
+	#site-header {
+		font-size: 3rem;
+	}
+	
+}
+
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	h1 {
+		font-size: 2rem;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+	}
+
+	h3 {
+		font-size: 1.25rem;
+	}
+	
+	header,
+	main,
+	footer {
+	max-width: 1152px;
+	}
+
+	nav {
+		max-width: 1200px;
+	}
+
+	nav ul li a {
+		font-size: 1.5rem;
+	}
+
+	td {
+		font-size: 1.2rem;
+	}
+
+	#site-header {
+		font-size: 4rem;
+	}
+}
