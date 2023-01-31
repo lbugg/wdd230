@@ -5,6 +5,15 @@
     --tan: #BB8C4A;
 }
 
+a, h1, h2, h3, h4, p {
+	font-family: 'Bitter', sans-serif;
+}
+
+.chamber-title h1, .bottom-chamber-title {
+	font-family: 'Smokum', serif;
+	font-size: 3rem;
+}
+
 header {
 	display: grid;
 	grid-template-columns: 1fr 3fr 1fr 1fr;
@@ -49,6 +58,9 @@ header h1 {
 
 #menu::before {
 	content: "≡";
+	font-size: 2em;
+	padding: 5px 10px;
+	border: solid white 1px;
 }
 
 .responsive li {
@@ -57,6 +69,7 @@ header h1 {
 
 .responsive #menu::before {
 	content: "X";
+	font-size: 1em;
 }
 
 /* nav stuff ends here */
@@ -78,16 +91,28 @@ main section {
 	height: 100px;
 }
 
+main section p {
+	padding-left: 5px;
+}
+
 .spotlights {
 	height: 150px;
 }
 
 .spotlights p {
 	border: 1px solid grey;
-	height: 70px;
+	height: 50px;
 	width: 90%;
-	margin: auto;
-	padding: 1px;
+	margin: 5px;
+	padding: 5px;
+}
+
+.spotlights p:nth-child(3) {
+	display: none;
+}
+
+.join {
+	display: none;
 }
 
 footer {
@@ -99,6 +124,15 @@ footer {
 
 footer img {
 	padding: 10px;
+}
+
+footer h1 {
+	display: none;
+}
+
+.bottom-info {
+	border-top: 1px solid var(--tan);
+	margin-top: 5px;
 }
 
 #lastModified {
