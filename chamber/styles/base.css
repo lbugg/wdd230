@@ -5,8 +5,12 @@
     --tan: #BB8C4A;
 }
 
-a, h1, h2, h3, h4, p {
-	font-family: 'Bitter', sans-serif;
+p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+a, h1, h2, h3, h4 {
+	font-family: 'Bitter', serif;
 }
 
 .chamber-title h1, .bottom-chamber-title {
