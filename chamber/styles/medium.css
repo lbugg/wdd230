@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 42em) {
 	
 	.header-logo {
 		width: 120px;
@@ -15,26 +15,69 @@
 		grid-column: 1/6;
 	}
 
-	.news-release {
+	.weekly-banner {
+		font-size: 1.5em;
+	}
+
+	.hero {
 		grid-row: 2/3;
+		height: 75%;
+	}
+
+	.hero h1 {
+		font-size: 2em;
+		top: 5%;
+	}
+
+	.hero h2 {
+		top: 65%;
+	}
+
+	.news-release {
+		grid-row: 3/4;
+		margin-top: -12.5%;
 	}
 
 	.spotlights {
-		grid-row: 3/4;
-		margin: 5px;
+		grid-row: 4/5;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.spotlights div {
+		padding: 0;
+	}
+
+	.spotlights h3 {
+		height: 35%;
 	}
 
 	.join {
 		display: block;
-		grid-row: 4/5;
+		grid-row: 5/6;
+	}
+
+	.join h3 {
+		width: 90%;
+		color: var(--yellow);
+		background-color: var(--darkbrown);
+		margin-left: 5%;
+		padding: 2% 0;
+		border-radius: 15px;
+		box-shadow: 0 0 15px black;
+		font-size: 1.5em;
 	}
 
 	.event {
 		grid-column: 1/4;
+		grid-row: 6/7;
 	}
 
 	.weather {
 		grid-column: 4/6;
+		margin: 5% auto;
+		width: 80%;
+		grid-row: 6/7;
 	}
 
 	footer {

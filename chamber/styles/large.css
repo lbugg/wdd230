@@ -41,51 +41,93 @@
 
     main {
         grid-template-columns: 1fr 2fr 1fr;
-        margin: 20px 30px;
+        margin: auto;
+        align-items: center;
     }
 
     main section {
-        height: 200px;
+        height: 90%;
+    }
+
+    main section h3 {
+        font-size: 1.5em;
+    }
+
+    .weekly-banner {
+        grid-column: 1/4;
+        width: 95%;
     }
 
     .hero {
         grid-column: 2/3;
-        grid-row: 1/3;
-        height: auto;
+        grid-row: 2/4;
+        position: relative;
+        height: 95%;
     }
+
+    .hero h1 {
+		font-size: 3em;
+		top: 5%;
+	}
+
+	.hero h2 {
+		top: 75%;
+	}
+
+	.hero p {
+		display: block;
+        grid-column: 2/3;
+        grid-row: 3/4;
+        position: absolute;
+        top: 96%;
+        left: 1%;
+        background-color: black;
+        color: white;
+        padding: 2px;
+        font-size: .5em;
+	}
 
     .event {
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-
-    .weather {
         grid-column: 1/2;
         grid-row: 2/3;
     }
 
-    .join {
+    .weather {
         grid-column: 1/2;
         grid-row: 3/4;
     }
+
+    .join {
+        grid-column: 1/2;
+        grid-row-start: 4;
+        margin: auto 5px;
+    }
     .news-release {
         grid-column: 2/3;
-        grid-row: 3/4;
+        grid-row-start: 4;
+        margin-top: 0;
+        padding: 0;
+        height: 90%;
+        margin: 15px 5px;
+    }
+
+    .news-release h3 {
+        margin-top: 2%;
     }
 
     .spotlights {
         grid-column: 3/4;
-        grid-row: 1/4;
+        grid-row-start: 2;
+        grid-template-columns: 1fr;
         height: auto;
     }
 
-    .spotlights p {
+    .spotlights h3 {
         width: 80%;
-        height: 170px;
         margin: 20px 15px;
     }
 
-    .spotlights p:nth-child(3) {
+    #third-spotlight {
         display: block;
     }
 

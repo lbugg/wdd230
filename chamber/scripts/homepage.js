@@ -22,3 +22,9 @@ lastMod.textContent = new Date(document.lastModified).toLocaleString();
 const mainnav = document.querySelector('.navigation')
 const hambutton = document.querySelector('#menu');
 hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+
+// toggle event banner
+if (now.getDay() == 1 || now.getDay() == 2) {
+	const banner = document.querySelector('.weekly-banner');
+	banner.style.display = 'block';
+}

@@ -56,11 +56,19 @@ header h1 {
 	color: white;
 }
 
+.navigation a:hover {
+	background-color: var(--tan);
+}
+
 #menu::before {
 	content: "≡";
 	font-size: 2em;
 	padding: 5px 10px;
 	border: solid white 1px;
+}
+
+#menu:hover {
+	background-color: var(--darkbrown);
 }
 
 .responsive li {
@@ -85,29 +93,122 @@ header h1 {
 }
 
 main section {
-	background-color: lightgrey;
-	border: 1px solid grey;
-	margin: 5px;
-	height: 100px;
+	background-color: var(--tan);
+	color: var(--darkbrown);
+	border: 1px solid var(--darkyellow);
+	margin: 15px 5px;
+	height: auto;
+	box-shadow: 0px 0px 10px black;
+	text-align: center;
 }
 
-main section p {
-	padding-left: 5px;
+.weekly-banner {
+	display: none;
+	height: 80px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 1% 2%;
+	background-color: var(--darkbrown);
+	color: var(--yellow);
+	border: 5px solid var(--yellow);
+}
+
+.hero {
+	position: relative;
+}
+
+.hero h1 {
+	font-size: 1.5em;
+	position: absolute;
+	top: 1%;
+	left: 5%;
+	color: var(--darkyellow);
+	text-shadow: var(--darkbrown) 2px 2px;
+}
+
+.hero h2 {
+	position: absolute;
+	top: 50%;
+	left: 60%;
+	color: var(--tan);
+	background-color: var(--darkbrown);
+	width: 30%;
+	padding: 2%;
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px black;
+}
+
+.hero p {
+	display: none;
+}
+
+.event h4 {
+	margin-top: 0;
+}
+
+.more-info {
+	color: var(--yellow);
+	font-size: .8em;
+}
+
+.weather {
+	width: 60%;
+	margin: auto;
+}
+
+.weather h4 {
+	font-size: 2em;
+	text-align: left;
+	margin: 0 0 5% 20%;
+}
+
+.weather-type {
+	text-align: right;
+	margin: 0 10%;
+	padding-bottom: 2%;
+	font-size: 1.5em;
+	border-bottom: 1px solid var(--darkbrown);
+}
+
+.news-release {
+	height: auto;
+	padding: 5%;
+}
+
+.news-release h3 {
+	margin-top: 0;
 }
 
 .spotlights {
-	height: 150px;
+	padding: 5%;
 }
 
-.spotlights p {
-	border: 1px solid grey;
-	height: 50px;
+.spotlights div {
+	width: 95%;
+	margin: auto;
+	padding: 3%;
+	border: 1px solid var(--darkyellow);
+	box-shadow: 0px 0px 10px black;
+}
+
+.spotlights h3 {
+	height: 40%;
 	width: 90%;
-	margin: 5px;
-	padding: 5px;
+	margin: 2% 3%;
+	padding: 1%;
 }
 
-.spotlights p:nth-child(3) {
+.slogan {
+	border-bottom: 1px solid var(--darkbrown);
+	margin: 0 5%;
+}
+
+.spotlight-contact {
+	font-size: .8em;
+	margin: 0;
+}
+
+#third-spotlight {
 	display: none;
 }
 
