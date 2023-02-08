@@ -98,7 +98,7 @@ header h1 {
 
 main section {
 	background-color: var(--tan);
-	color: var(--darkbrown);
+	color: black;
 	border: 1px solid var(--darkyellow);
 	margin: 15px 5px;
 	height: auto;
@@ -121,7 +121,12 @@ main section {
 	position: relative;
 }
 
-.hero h1 {
+#hero-img {
+	width: 100%;
+	height: 100%;
+}
+
+.hero h2 {
 	font-size: 1.5em;
 	position: absolute;
 	top: 1%;
@@ -130,7 +135,7 @@ main section {
 	text-shadow: var(--darkbrown) 2px 2px;
 }
 
-.hero h2 {
+.hero h3 {
 	position: absolute;
 	top: 50%;
 	left: 60%;
