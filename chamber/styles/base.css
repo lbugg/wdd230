@@ -158,6 +158,7 @@ main section {
 .more-info {
 	color: var(--yellow);
 	font-size: .8em;
+	text-shadow: 1px 1px black;
 }
 
 .weather {
