@@ -13,10 +13,11 @@
     <link rel="stylesheet" href="styles/large.css">
     <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Montserrat:wght@300&family=Smokum&display=swap" rel="stylesheet">
     <script src="scripts/homepage.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
 </head>
 <body>
     <header>
-        <img class="header-logo" src="images/chamber-logo.png" alt="old frontier chamber logo" width="80" height="48">
+        <img class="header-logo" src="images/chamber-logo.webp" alt="old frontier chamber logo" width="80" height="48">
         <section class="chamber-title">
             <h2>Old Frontier</h2>
             <p>Chamber of Commerce</p>
@@ -41,7 +42,11 @@
             <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
         </div>
         <section class="hero">
-            <img id="hero-img" src="images/hero-img.jpg" alt="wagon on plains in front of mountains">
+            <picture>
+                <source srcset="images/hero-large.jpg" media="(min-width: 960px)">
+                <source srcset="images/hero-medium.jpg" media="(min-width: 680px) and (max-width: 959px)">
+                <img id="hero-img" src="images/hero-small.jpg" alt="People sitting around a table">
+            </picture>
             <h2>Welcome to Cheyenne</h2>
             <h3>Join the Chamber</h3>
             <p>Photo by <a href="https://unsplash.com/@stephenhui?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Hui</a> on <a href="https://unsplash.com/photos/J3__44tDpAU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
@@ -54,10 +59,10 @@
         </section>
         <section class="weather">
             <h3>Weather</h3>
-            <h4>8&#8451;</h4>
+            <h4><span class="temperature">8</span>&#8451;</h4>
             <p class="weather-type">Sunny</p>
-            <p>Wind Speed: 25 mph</p>
-            <p>Wind Chill: 3.3&#8451;</p>
+            <p>Wind Speed: <span class="wind-speed">25</span> km/h</p>
+            <p>Wind Chill: <span class="wind-chill"></span></p>
         </section>
         <section class="news-release">
             <h3>News Release</h3>
@@ -92,7 +97,7 @@
         </section>
     </main>
     <footer>
-        <img class="bottom-logo" src="images/chamber-logo.png" alt="old frontier chamber logo" width="160" height="96">
+        <img class="bottom-logo" src="images/chamber-logo.webp" alt="old frontier chamber logo" width="160" height="96">
         <h1 class="bottom-chamber-title">Old Frontier Chamber</h1>
         <p class="bottom-chamber-address">Here's where the address would go</p>
         <div class="contact-info">
