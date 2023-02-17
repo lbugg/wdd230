@@ -130,6 +130,22 @@
         display: block;
     }
 
+    .gallery-img {
+        grid-column: 3/4;
+    }
+
+    .demographics-question {
+        grid-column: 1;
+        margin-top: -10%;
+    }
+
+    .demographics-answer {
+        grid-column: 2;
+        margin-top: 15%;
+        text-align: center;
+        margin-left: 10%;
+    }
+
     footer {
         grid-template-columns: 1fr 1fr 1fr;
     }

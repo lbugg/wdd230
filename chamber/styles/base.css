@@ -119,7 +119,6 @@ main section {
 
 .hero {
 	position: relative;
-	background-color: white;
 }
 
 #hero-img {
@@ -230,6 +229,58 @@ main section {
 
 .join {
 	display: none;
+}
+
+.gallery-img img {
+	width: 90%;
+	margin: 5% 0%;
+}
+
+.gallery-img-description {
+	margin-top: -3%;
+	text-align: center;
+}
+
+.demographics-title {
+	color: white;
+	background-color: var(--darkbrown);
+	text-align: center;
+	padding: 3%;
+	height: fit-content;
+	margin: auto;
+}
+
+.demographics-question {
+	display: none;
+}
+
+.demographics-answer {
+	color: white;
+	background-color: var(--darkbrown);
+	text-align: center;
+	padding: 3%;
+	height: fit-content;
+	margin: auto;
+}
+
+.last-visited {
+	height: fit-content;
+	margin: 0 auto;
+	text-align: center;
+	padding: 1% 2%;
+	background-color: var(--darkbrown);
+	color: var(--yellow);
+	width: 100%;
+}
+
+.disclaimer {
+	grid-column: 1/6;
+	text-align: center;
+	background-color: var(--darkbrown);
+	color: var(--yellow);
+	margin: 2% auto;
+	padding: 1%;
+	width: 80%;
 }
 
 footer {
