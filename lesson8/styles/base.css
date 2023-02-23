@@ -1,0 +1,32 @@
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+table {
+    border: 2px solid white;
+    margin-top: 5px;
+    width: 500px;
+    height: 200px;
+}
+
+caption {
+    margin: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: grey;
+}
+
+td {
+    padding: 5px;
+}
+
+#empty-slot {
+    background-color: black;
+}
