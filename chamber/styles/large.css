@@ -146,6 +146,15 @@
         margin-left: 10%;
     }
 
+    #membership {
+        grid-template-columns: 1fr 1fr 5fr;
+    }
+
+	.thank-you {
+		grid-column: 2;
+        margin: 100px 0 200px 0;
+	}
+
     footer {
         grid-template-columns: 1fr 1fr 1fr;
     }
