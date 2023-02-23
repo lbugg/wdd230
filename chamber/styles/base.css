@@ -302,7 +302,7 @@ form legend {
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: var(--darkyellow);
+    color: var(--darkbrown);
     font-size: .8rem;
 }
 
