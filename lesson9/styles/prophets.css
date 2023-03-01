@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+header, main div h2 {
+    background-color: #5A056C;
+    border-radius: 10px;
+    width: auto;
+    padding: 5px;
+    margin: 20px auto;
+    max-width: 20rem;
+}
+
+main div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 10px;
+}
+
+main section {
+    border: 1px solid white;
+}
