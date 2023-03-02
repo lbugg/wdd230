@@ -32,6 +32,7 @@ const displayGrid = (businesses) => {
         logo.setAttribute("loading", "lazy");
         logo.setAttribute("width", "180");
         logo.setAttribute("height", "180");
+        logo.classList.add("not-list");
 
         // Build the other content out to show the business information
         name.textContent = `${business.name}`;

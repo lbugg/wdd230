@@ -408,10 +408,6 @@ textarea {
 	margin: 20px;
 }
 
-.list-view img {
-	display: none;
-}
-
 .list-view section {
 	display: grid;
 	grid-template-columns: 2fr 1fr 1fr;
