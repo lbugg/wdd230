@@ -155,6 +155,44 @@
         margin: 100px 0 200px 0;
 	}
 
+    .menu {
+        grid-column: 2;
+    }
+
+    .businesses {
+        max-width: 1000px;
+        margin: 30px auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: rgba(164, 116, 30, .5);
+        padding: 50px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px black;
+    }
+
+    .businesses section {
+        padding: 20px 10%;
+        margin: 0;
+    }
+
+    .businesses section h2 {
+        height: 60px;
+        padding: 0;
+    }
+
+    .list-view section {
+        padding: 10px;
+    }
+
+    .list-view section h2 {
+        font-size: 1.2rem;
+        height: auto;
+    }
+
+    .list-view section p {
+        font-size: 1.2rem;
+        margin: auto;
+    }
+
     footer {
         grid-template-columns: 1fr 1fr 1fr;
     }

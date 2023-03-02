@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Logan Bugg chamber thank you page for WDD230 at BYUI online">
-    <title>Old Frontier Chamber | Thank You</title>
+    <meta name="description" content="Logan Bugg chamber directory page for WDD230 at BYUI online">
+    <title>Old Frontier Chamber | Directory</title>
     <link rel="icon" href="../favicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/large.css">
     <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Montserrat:wght@300&family=Smokum&display=swap" rel="stylesheet">
     <script src="scripts/homepage.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
 </head>
 <body>
     <header>
@@ -37,7 +38,11 @@
         <div class="date"></div>
     </header>
     <main>
-        <p class="thank-you">Thank you for your interest in joining the Old Frontier Chamber! Your application will be processed in a few days, and an email will be sent to the address you provided with a link to complete the membership process.</p>
+        <div class="menu">
+            <button id="grid-button">Grid View</button>
+            <button id="list-button">List View</button>
+        </div>
+        <div class="businesses"></div>
     </main>
     <footer>
         <img class="bottom-logo" src="images/chamber-logo.webp" alt="old frontier chamber logo" width="160" height="96">

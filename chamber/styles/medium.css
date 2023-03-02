@@ -140,6 +140,37 @@
         margin: 50px 0 100px 0;
 	}
 
+	.menu {
+		width: auto;
+		grid-column: 2/5;
+		margin-bottom: 20px;
+	}
+
+	.businesses {
+		grid-column: 1/6;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 50px;
+	}
+
+	.businesses section {
+		grid-column: span 1;
+		margin: auto 25px;
+	}
+
+	.list-view {
+		display: flex;
+		margin: 0px 20px 20px 20px;
+		grid-gap: 0;
+		padding: 20px;
+		box-shadow: none;
+		background-color: var(--darkbrown);
+	}
+
+	.list-view section {
+		margin: 0;
+	}
+
 	footer {
 		display: grid;
 		grid-template-columns: 1fr 2fr 2fr;
