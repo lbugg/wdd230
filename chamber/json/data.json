@@ -3,7 +3,7 @@
         {
             "name" : "Frontier Steakhouse",
             "address" : "1234 Street Rd",
-            "phone" : "XXX-XXX-XXXX",
+            "phone" : "555-555-5555",
             "website" : "frontier_steakhouse.com",
             "membership" : "Gold",
             "image" : "https://placekitten.com/180/180",
@@ -12,7 +12,7 @@
         {
             "name" : "Old Town Liquor",
             "address" : "5678 Street Rd",
-            "phone" : "XXX-XXX-XXXX",
+            "phone" : "555-555-5555",
             "website" : "oldtownliquor.com",
             "membership" : "Gold",
             "image" : "https://placekitten.com/180/180",
@@ -21,7 +21,7 @@
         {
             "name" : "Tim's Curry",
             "address" : "1357 Road Pl",
-            "phone" : "XXX-XXX-XXXX",
+            "phone" : "555-555-5555",
             "website" : "tims_curry.com",
             "membership" : "Gold",
             "image" : "https://placekitten.com/180/180",
@@ -30,7 +30,7 @@
         {
             "name" : "[Business Name]",
             "address" : "2468 Road Pl",
-            "phone" : "XXX-XXX-XXXX",
+            "phone" : "555-555-5555",
             "website" : "businessname.com",
             "membership" : "Silver",
             "image" : "https://placekitten.com/180/180",
@@ -39,7 +39,7 @@
         {
             "name" : "[Business Name]",
             "address" : "147 Place Blvd",
-            "phone" : "XXX-XXX-XXXX",
+            "phone" : "555-555-5555",
             "website" : "businessname.com",
             "membership" : "Bronze",
             "image" : "https://placekitten.com/180/180",
@@ -48,7 +48,7 @@
         {
             "name" : "[Business Name]",
             "address" : "258 Place Blvd",
-            "phone" : "XXX-XXX-XXXX",
+            "phone" : "555-555-5555",
             "website" : "businessname.com",
             "membership" : "Silver",
             "image" : "https://placekitten.com/180/180",
@@ -57,7 +57,7 @@
         {
             "name" : "[Business Name]",
             "address" : "369 Place Blvd",
-            "phone" : "XXX-XXX-XXXX",
+            "phone" : "555-555-5555",
             "website" : "businessname.com",
             "membership" : "Bronze",
             "image" : "https://placekitten.com/180/180",
@@ -66,7 +66,7 @@
         {
             "name" : "[Business Name]",
             "address" : "159 Boulevard Cir",
-            "phone" : "XXX-XXX-XXXX",
+            "phone" : "555-555-5555",
             "website" : "businessname.com",
             "membership" : "Bronze",
             "image" : "https://placekitten.com/180/180",
@@ -75,7 +75,7 @@
         {
             "name" : "[Business Name]",
             "address" : "123456789 Circle Way",
-            "phone" : "XXX-XXX-XXXX",
+            "phone" : "555-555-5555",
             "website" : "businessname.com",
             "membership" : "Non-Profit",
             "image" : "https://placekitten.com/180/180",

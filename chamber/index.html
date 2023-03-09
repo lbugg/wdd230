@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="styles/large.css">
     <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Montserrat:wght@300&family=Smokum&display=swap" rel="stylesheet">
     <script src="scripts/homepage.js" defer></script>
-    <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 </head>
 <body>
     <header>
@@ -48,7 +48,7 @@
                 <img id="hero-img" src="images/hero-img-small.jpg" alt="wagon on plains in front of mountains">
             </picture>
             <h2>Welcome to Cheyenne</h2>
-            <h3>Join the Chamber</h3>
+            <a href="join.html"><h3>Join the Chamber</h3></a>
             <p>Photo by <a href="https://unsplash.com/@stephenhui?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Hui</a> on <a href="https://unsplash.com/photos/J3__44tDpAU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
         </section>
         <section class="event">
@@ -59,9 +59,12 @@
         </section>
         <section class="weather">
             <h3>Weather</h3>
-            <h4><span class="temperature">8</span>&#8451;</h4>
-            <p class="weather-type">Sunny</p>
-            <p>Wind Speed: <span class="wind-speed">25</span> km/h</p>
+            <div id="weather-div">
+                <img src="" alt="" id="weather-icon"/>
+                <h4><span class="temperature"></span>&#8451;</h4>
+            </div>
+            <p class="weather-type"></p>
+            <p>Wind Speed: <span class="wind-speed"></span> km/h</p>
             <p>Wind Chill: <span class="wind-chill"></span></p>
         </section>
         <section class="news-release">
@@ -92,7 +95,7 @@
             </div>
         </section>
         <section class="join">
-            <h3>Join Us!</h3>
+            <a href="join.html"><h3>Join Us!</h3></a>
             <p>Learn how your organization can become a part of our wonderful chamber of commerce!</p>
         </section>
     </main>
@@ -108,6 +111,7 @@
         <div class="bottom-info">
             <p>&copy;<span id="year"></span> Old Frontier Chamber | Logan Bugg | WDD230 Project | Last Updated: 
                 <span id="lastModified"></span></p>
+                <p id="weather-credit">Weather information courtesy of OpenWeatherMap</p>
             </div>
     </footer>
 </body>
