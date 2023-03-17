@@ -283,7 +283,7 @@ main section {
 	height: fit-content;
 	margin: 0 auto;
 	text-align: center;
-	padding: 1% 2%;
+	padding: 1% 0;
 	background-color: var(--darkbrown);
 	color: var(--yellow);
 	width: 100%;
