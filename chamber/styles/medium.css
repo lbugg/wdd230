@@ -48,6 +48,10 @@
 		padding: 0;
 	}
 
+	.spotlights img {
+		margin-top: 3%;
+	}
+
 	.spotlights h3 {
 		height: 35%;
 	}

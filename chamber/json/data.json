@@ -6,7 +6,7 @@
             "phone" : "555-555-5555",
             "website" : "frontier_steakhouse.com",
             "membership" : "Gold",
-            "image" : "https://placekitten.com/180/180",
+            "image" : "images/steakhouse-logo.png",
             "alt" : "frontier steakhouse logo"
         },
         {
@@ -15,7 +15,7 @@
             "phone" : "555-555-5555",
             "website" : "oldtownliquor.com",
             "membership" : "Gold",
-            "image" : "https://placekitten.com/180/180",
+            "image" : "images/liquor-logo.png",
             "alt" : "old town liquor logo"
         },
         {
@@ -24,62 +24,62 @@
             "phone" : "555-555-5555",
             "website" : "tims_curry.com",
             "membership" : "Gold",
-            "image" : "https://placekitten.com/180/180",
+            "image" : "images/curry-logo.png",
             "alt" : "tim's curry logo"
         },
         {
-            "name" : "[Business Name]",
+            "name" : "Grant's Boot Shack",
             "address" : "2468 Road Pl",
             "phone" : "555-555-5555",
             "website" : "businessname.com",
             "membership" : "Silver",
-            "image" : "https://placekitten.com/180/180",
+            "image" : "images/shack-logo.png",
             "alt" : "business name logo"
         },
         {
-            "name" : "[Business Name]",
+            "name" : "[Business 5]",
             "address" : "147 Place Blvd",
             "phone" : "555-555-5555",
-            "website" : "businessname.com",
+            "website" : "business5.com",
             "membership" : "Bronze",
-            "image" : "https://placekitten.com/180/180",
-            "alt" : "business name logo"
+            "image" : "images/business-5-logo.png",
+            "alt" : "business 5 logo"
         },
         {
-            "name" : "[Business Name]",
+            "name" : "[Business 6]",
             "address" : "258 Place Blvd",
             "phone" : "555-555-5555",
-            "website" : "businessname.com",
+            "website" : "business6.com",
             "membership" : "Silver",
-            "image" : "https://placekitten.com/180/180",
-            "alt" : "business name logo"
+            "image" : "images/business-6-logo.png",
+            "alt" : "business 6 logo"
         },
         {
-            "name" : "[Business Name]",
+            "name" : "[Business 7]",
             "address" : "369 Place Blvd",
             "phone" : "555-555-5555",
-            "website" : "businessname.com",
+            "website" : "business7.com",
             "membership" : "Bronze",
-            "image" : "https://placekitten.com/180/180",
-            "alt" : "business name logo"
+            "image" : "images/business-7-logo.png",
+            "alt" : "business 7 logo"
         },
         {
-            "name" : "[Business Name]",
+            "name" : "[Business 8]",
             "address" : "159 Boulevard Cir",
             "phone" : "555-555-5555",
-            "website" : "businessname.com",
+            "website" : "business8.com",
             "membership" : "Bronze",
-            "image" : "https://placekitten.com/180/180",
-            "alt" : "business name logo"
+            "image" : "images/business-8-logo.png",
+            "alt" : "business 8 logo"
         },
         {
-            "name" : "[Business Name]",
+            "name" : "[Business 9]",
             "address" : "123456789 Circle Way",
             "phone" : "555-555-5555",
-            "website" : "businessname.com",
+            "website" : "business9.com",
             "membership" : "Non-Profit",
-            "image" : "https://placekitten.com/180/180",
-            "alt" : "business name logo"
+            "image" : "images/business-9-logo.png",
+            "alt" : "business 9 logo"
         }
     ]
 }

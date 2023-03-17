@@ -1,6 +1,5 @@
-// define source and view-switch boolean
+// define source
 const source = 'json/data.json';
-let listDisplay = false;
 
 // pull json data
 async function getBusinessData() {
@@ -14,7 +13,7 @@ getBusinessData();
 
 // define grid display
 const displayGrid = (businesses) => {
-    const cards = document.querySelector('div.businesses'); // select the output container element
+    const cards = document.querySelector("div.businesses"); // select the output container element
 
     businesses.forEach((business) => {
         // Create elements to add to the div.cards element
@@ -26,7 +25,7 @@ const displayGrid = (businesses) => {
         let website = document.createElement("p");
         let membership = document.createElement("p");
     
-        // Build the image logo by setting all the relevant attribute
+        // Build the image logo by setting all the relevant attributes
         logo.setAttribute("src", business.image);
         logo.setAttribute("alt", `${name} logo`);
         logo.setAttribute("loading", "lazy");

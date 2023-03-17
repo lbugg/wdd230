@@ -86,6 +86,10 @@
         font-size: .8em;
 	}
 
+    .hero a {
+        color: white;
+    }
+
     .event {
         grid-column: 1/2;
         grid-row: 2/3;

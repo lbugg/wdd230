@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Montserrat:wght@300&family=Smokum&display=swap" rel="stylesheet">
     <script src="scripts/homepage.js" defer></script>
     <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlights.js" defer></script>
 </head>
 <body>
     <header>
@@ -29,10 +30,11 @@
         <nav>
             <ul class="navigation">
                     <li><a id="menu" href="#"></a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
                     <li><a href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
         <div class="date"></div>
@@ -55,12 +57,12 @@
             <h3>Grand Opening</h3>
             <h4>Grant's Boot Shack</h4>
             <p>Come join us for the grand opening of Grant's Boot Shack, Friday at 3:00 PM</p>
-            <p class="more-info">click here for more info</p>
+            <a href="directory.html"><p class="more-info">click here for more info</p></a>
         </section>
         <section class="weather">
             <h3>Weather</h3>
             <div id="weather-div">
-                <img src="" alt="" id="weather-icon"/>
+                <img src="images/placeholder.jpg" alt="" id="weather-icon">
                 <h4><span class="temperature"></span>&#8451;</h4>
             </div>
             <p class="weather-type"></p>
@@ -72,27 +74,6 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </section>
         <section class="spotlights">
-            <div>
-                <h3>Frontier Steakhouse</h3>
-                <img src="https://placekitten.com/120/120" alt="Frontier Steakhouse logo">
-                <p class="slogan">[Insert Frontier Steakhouse Slogan]</p>
-                <p class="spotlight-contact">contact@frontier_steakhouse.com</p>
-                <p class="spotlight-contact">(555)555-5555</p>
-            </div>
-            <div>
-                <h3>Old Town Liquor</h3>
-                <img src="https://placekitten.com/120/120" alt="Old Town Liquor logo">
-                <p class="slogan">[Insert Old Town Liquor Slogan]</p>
-                <p class="spotlight-contact">questions@oldtownliquor.com</p>
-                <p class="spotlight-contact">(555)555-5555</p>
-            </div>
-            <div id="third-spotlight">
-                <h3>Tim's Curry</h3>
-                <img src="https://placekitten.com/120/120" alt="Tim's Curry logo">
-                <p class="slogan">[Insert Tim's Curry Slogan]</p>
-                <p class="spotlight-contact">contact@tims_curry.com</p>
-                <p class="spotlight-contact">(555)555-5555</p>
-            </div>
         </section>
         <section class="join">
             <a href="join.html"><h3>Join Us!</h3></a>

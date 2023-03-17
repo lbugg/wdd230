@@ -131,8 +131,8 @@ main section {
 	position: absolute;
 	top: 1%;
 	left: 5%;
-	color: var(--darkyellow);
-	text-shadow: var(--darkbrown) 2px 2px;
+	color: var(--darkbrown);
+	text-shadow: var(--darkyellow) 2px 2px;
 }
 
 .hero h3 {
@@ -153,6 +153,10 @@ main section {
 
 .event h4 {
 	margin-top: 0;
+}
+
+.event a {
+	text-decoration: none;
 }
 
 .more-info {
@@ -448,6 +452,20 @@ textarea {
 
 .list-view .not-list {
 	display: none;
+}
+
+.contact-information {
+	width: 90%;
+	margin: 50px auto;
+	max-width: 800px;
+	height: auto;
+}
+
+.contact-div {
+	background-color: var(--darkbrown);
+	color: white;
+	padding: 5px;
+	margin: 0px 5px 10px 5px;
 }
 
 footer {
