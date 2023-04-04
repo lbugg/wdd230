@@ -1,0 +1,225 @@
+:root {
+    --cyan: #87D4D4;
+    --yellow: #E5D138;
+    --orange: #FF621F;
+    --offwhite: #F5F5F5;
+}
+
+/* header stuff starts here */
+
+header {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+    background-color: var(--cyan);
+    color: white;
+	align-items: center;
+    text-align: center;
+	padding: 5px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+#header-img {
+    display: none;
+    margin: auto;
+}
+
+/* header stuff ends here */
+
+/* nav stuff starts here */
+
+.navigation {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: white;
+}
+
+.navigation a:hover {
+	background-color: var(--orange);
+}
+
+#menu::before {
+	content: "≡";
+	font-size: 2em;
+	padding: 5px 10px;
+	border: solid white 1px;
+}
+
+#menu:hover {
+	background-color: var(--orange);
+}
+
+.responsive li {
+	display: block;
+}
+
+.responsive #menu::before {
+	content: "X";
+	font-size: 1em;
+}
+
+/* nav stuff ends here */
+
+/* main stuff starts here */
+
+main {
+    font-family: "Noto Serif", serif;
+}
+
+section {
+    text-align: center;
+    margin: 20px 10px;
+    border: 2px solid var(--orange);
+    background-color: var(--offwhite);
+    border-radius: 10px;
+}
+
+section p {
+    padding: 0px 10px;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+#hero-img {
+    width: 100%;
+	height: 100%;
+}
+
+.hero h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    color: white;
+    background-color: var(--orange);
+    padding: 10px;
+    border-radius: 20px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.weather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+.weather img {
+    width: 100%;
+    height: 100%;
+}
+
+.weather h4 {
+    font-size: 2rem;
+}
+
+.weather p {
+    font-size: 1.5rem;
+}
+
+.forecast {
+    display: none;
+}
+
+/* main stuff ends here */
+
+/* fresh page starts here */
+
+fieldset {
+    color: var(--orange);
+    border-radius: 10px;
+    border: 1px solid var(--orange);
+    width: 90%;
+    margin: 20px auto 0px auto;
+}
+
+label {
+    display: block;
+    padding-top: 1rem;
+    font-size: .8rem;
+}
+
+label input, select, textarea {
+    border: solid 1px var(--orange);
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: .5rem;
+}
+
+label.top input {
+    width: 90%;
+}
+
+label.top input:required {
+    border-left: red solid 6px;
+}
+
+label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+.submitBtn {
+    color: white;
+    background-color: var(--yellow);
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px 30px;
+    max-width: 20rem;
+}
+
+/* fresh page ends here */
+
+/* about us page starts here */
+
+main h1 {
+    text-align: center;
+    color: white;
+    background-color: var(--orange);
+    padding: 10px;
+    width: 60%;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.map img {
+    margin-bottom: 20px;
+}
+
+/* about us page ends here */
+
+/* footer stuff starts here */
+
+footer {
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+    background-color: var(--cyan);
+    color: white;
+	align-items: center;
+    text-align: center;
+	padding: 5px 10px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.social img {
+    padding: 5px;
+}
+
+.bottom-info {
+    grid-column: 1/3;
+}

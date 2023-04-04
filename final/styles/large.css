@@ -1,0 +1,135 @@
+@media only screen and (min-width: 60em) {
+
+    /* header/nav stuff starts here */
+
+    header {
+        grid-template-columns: 2fr 2fr 1fr;
+        font-size: 2rem;
+    }
+
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    .navigation a {
+        text-align: center;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+
+    #header-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    /* header/nav stuff ends here */
+
+    /* main stuff starts here */
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .hero {
+        grid-column: 3;
+    }
+
+    .weather {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .coastal-info {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .drink-tracker {
+        grid-column: 3;
+        font-size: 3rem;
+    }
+
+    .forecast {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column: 1/3;
+        grid-row: 2;
+    }
+
+    .forecast h2 {
+        grid-column: 1/4;
+    }
+
+    .forecast p {
+        font-size: 2rem;
+        color: white;
+        background-color: var(--orange);
+        padding: 10px;
+        margin: 30px;
+        border-radius: 20px;
+    }
+
+    /* main stuff ends here */
+
+    /* fresh page starts here */
+
+    fieldset {
+        grid-column: 2;
+    }
+
+    .submitBtn {
+        grid-column: 2;
+    }
+
+    .order {
+        grid-column: 2;
+    }
+
+    /* fresh page ends here */
+
+    /* about us page starts here */
+
+    main h1 {
+        grid-column: 1/4;
+    }
+
+    .history {
+        grid-column: 1/3;
+    }
+
+    .health {
+        grid-column: 1/3;
+    }
+
+    .map {
+        grid-column: 3;
+        grid-row: 2/4;
+    }
+
+    .map img {
+        height: 400px;
+        width: 400px;
+    }
+
+    /* about us page ends here */
+
+    /* footer stuff starts here */
+
+    footer {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .contact-info {
+        display: grid;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+
+    .contact-info p {
+        grid-column: 2;
+    }
+}

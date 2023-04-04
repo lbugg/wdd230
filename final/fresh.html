@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Logan Bugg bountiful foods fresh page for WDD230 at BYUI online">
+    <title>Bountiful Foods | Home</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Noto+Serif&display=swap" rel="stylesheet">
+    <script src="scripts/nav.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/fresh.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navigation">
+                <li><a id="menu" href="#"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+        <h1>Bountiful Foods</h1>
+        <img id="header-img" src="images/logo.png" alt="bountiful foods logo">
+    </header>
+    <main>
+        <fieldset>
+            <legend>Your Info</legend>
+            <label class="top">First Name* <input id="first-name" type="text" name="fname" required></label>
+            <label class="top">Email* <input id="email" type="email" name="email" placeholder="address@gmail.com" required></label>
+            <label class="top">Cell Phone Number* <input id="phone" type="tel" name="phone" required></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Build Your Drink</legend>
+            <div id="drink-builder">
+                <label for="fruit1">Choose a fruit:</label>
+                <select name="Fruit 1" id="fruit1">
+                </select>
+                <label for="fruit2">Choose a fruit:</label>
+                <select name="Fruit 2" id="fruit2">
+                </select>
+                <label for="fruit3">Choose a fruit:</label>
+                <select name="Fruit 3" id="fruit3">
+                </select>
+            </div>
+            <label for="special-instructions">Special Instructions</label>
+            <textarea name="special-instructions" id="special-instructions" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <input type="hidden" id="dateTime">
+        <input type="submit" value="Create Your Drink" class="submitBtn">
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="facebook" width="40" height="40"></a>
+            <a href="https://linkedin.com"><img src="images/linkedIn.png" alt="linkedin" width="40" height="40"></a>
+            <a href="https://instagram.com"><img src="images/instagram.png" alt="instagram" width="40" height="40"></a>
+        </div>
+        <div class="contact-info">
+            <h2>1234 Place St</h2>
+            <p>(555)555-5555</p>
+        </div>
+        <div class="bottom-info">
+            <p>&copy;<span id="year"></span> Bountiful Foods | Logan Bugg | WDD230 Project | Last Updated: 
+                <span id="lastModified"></span></p>
+            <p id="weather-credit">Weather information courtesy of OpenWeatherMap</p>
+        </div>
+    </footer>
+</body>
+</html>

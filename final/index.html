@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Logan Bugg bountiful foods homepage for WDD230 at BYUI online">
+    <title>Bountiful Foods | Home</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Noto+Serif&display=swap" rel="stylesheet">
+    <script src="scripts/nav.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/forecast.js" defer></script>
+    <script src="scripts/drinkscreated.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navigation">
+                <li><a id="menu" href="#"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+        <h1>Bountiful Foods</h1>
+        <img id="header-img" src="images/logo.png" alt="bountiful foods logo">
+    </header>
+    <main>
+        <section class="hero">
+            <img src="images/hero.png" alt="hero image" id="hero-img">
+            <a href="fresh.html"><h2>Make Your Own Drink</h2></a>
+        </section>
+        <section class="coastal-info">
+            <h2>Coastal Area Name</h2>
+            <p>What’s he that wishes so? My cousin Westmoreland? No, my fair cousin: If we are mark’d to die, we are enow To do our country loss; and if to live, The fewer men, the greater share of honour. God’s will! I pray thee, wish not one man more. By Jove, I am not covetous for gold, Nor care I who doth feed upon my cost; It yearns me not if men my garments wear; Such outward things dwell not in my desires: But if it be a sin to covet honour, I am the most offending soul alive...</p>
+        </section>
+        <section class="weather">
+            <img src="images/placeholder.jpg" alt="" id="weather-icon">
+            <h4><span class="temperature"></span>&#8451;</h4>
+            <p class="weather-type"></p>
+            <p class="humidity"></p>
+        </section>
+        <section class="drink-tracker">
+            <p id="drinks-created"></p>
+        </section>
+        <section class="forecast">
+            <h2>3-Day Forecast</h2>
+            <p><span id="forecast-temp1"></span>&#8451;</p>
+            <p><span id="forecast-temp2"></span>&#8451;</p>
+            <p><span id="forecast-temp3"></span>&#8451;</p>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="facebook" width="40" height="40"></a>
+            <a href="https://linkedin.com"><img src="images/linkedIn.png" alt="linkedin" width="40" height="40"></a>
+            <a href="https://instagram.com"><img src="images/instagram.png" alt="instagram" width="40" height="40"></a>
+        </div>
+        <div class="contact-info">
+            <h2>1234 Place St</h2>
+            <p>(555)555-5555</p>
+        </div>
+        <div class="bottom-info">
+            <p>&copy;<span id="year"></span> Bountiful Foods | Logan Bugg | WDD230 Project | Last Updated: 
+                <span id="lastModified"></span></p>
+            <p id="weather-credit">Weather information courtesy of OpenWeatherMap</p>
+        </div>
+    </footer>
+</body>
+</html>
